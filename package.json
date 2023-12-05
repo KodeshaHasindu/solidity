@@ -1,0 +1,26 @@
+{
+  "name": "test-new",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hardhat.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.2",
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@nomicfoundation/hardhat-verify": "^2.0.0",
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "chai": "^4.3.10",
+    "ethers": "^6.9.0",
+    "hardhat": "^2.19.0"
+  },
+  "dependencies": {
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.9",
+    "@openzeppelin/contracts": "^5.0.0",
+    "merkletreejs": "^0.3.11"
+  }
+}
